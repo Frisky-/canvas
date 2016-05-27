@@ -17,7 +17,7 @@ ctx.arcTo(60, 180, 60, 160, 20);
 
 //top left
 ctx.arcTo(60, 50, 80, 50, 20);
-
+ctx.lineWidth = 4;
 ctx.strokeStyle = "red";
 ctx.stroke();
 ctx.fillStyle = "green";
